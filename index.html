@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/main.css" />
+    <link rel="stylesheet" href="./static/css/timer.css" />
+    <link rel="stylesheet" href="./static/css/hero.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Timer</title>
+  </head>
+
+  <body>
+    <main id="main" class="main">
+      <div id="main-container" class="container">
+        <div id="hero" class="hero">
+          <h1 class="upcoming-event hero-header">UPCOMING EVENT!!</h1>
+          <p class="hero-text">
+            Countdown with us to our upcoming event on
+            <span id="event-date">Month Day Year</span>
+          </p>
+        </div>
+        <div class="countdown-container" id="countdown-container">
+          <div id="days">
+            <div class="number-container">00</div>
+            <p class="unitText">DAYS</p>
+          </div>
+          <div id="hours">
+            <div class="number-container">00</div>
+            <p class="unitText">HOURS</p>
+          </div>
+          <div id="minutes">
+            <div class="number-container">00</div>
+            <p class="unitText">MINUTES</p>
+          </div>
+          <div id="seconds">
+            <div class="number-container">00</div>
+            <p class="unitText">SECONDS</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <script type="module" src="app.js"></script> -->
+  </body>
+  <script type="module" src="app.js"></script>
+</html>

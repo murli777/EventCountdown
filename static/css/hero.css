@@ -1,0 +1,13 @@
+.hero {
+  margin-top: auto;
+}
+
+.hero-header {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.hero-text {
+  font-weight: 300;
+  font-size: 1.75rem;
+}
